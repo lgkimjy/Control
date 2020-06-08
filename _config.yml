@@ -1,5 +1,5 @@
 title: Texture Theme
-author: GitHub User
+author: lgkimjy
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Google search results) and in your feed.xml site description.
 show_excerpts: true # set to true to show excerpts on the homepage
 baseurl: /texture
-
+url : https://lgkimjy.github.io
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
@@ -24,10 +24,7 @@ texture:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    rss: rss
+    github:  lgkimjy
  
 
 # If you want to link only specific pages in your header, uncomment
