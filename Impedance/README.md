@@ -15,3 +15,4 @@ Simple mimic of Impedance Control using Servo Motor
 ### References
 * https://www.youtube.com/watch?v=JnAA2EnShH8
 * https://www.youtube.com/watch?v=Vf9fQK5PKn4
+* https://www.youtube.com/watch?v=fusr9eTceEo
