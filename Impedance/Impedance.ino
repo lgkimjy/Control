@@ -2,8 +2,8 @@
 
 //Pin define
 
-#define MA_DIR  4
-#define MA_PWM  5
+#define MA_DIR  12
+#define MA_PWM  10
 #define PT_ENC  A0
 #define PT_REF  A1
 #define LED     3
@@ -58,17 +58,22 @@ void loop(){
 
     switch(t5_index){
       case 0:
+        Serial.println("--------------------------------");
         break;
 
       case 1:
         ref_val = analogRead(PT_REF);
         ref_val = map(ref_val, 0, 1023, -500, 500);
+        Serial.print("ref potentio-meter : ");
+        Serial.println(ref_val);
         break;
 
       case 2:
         // Read the potentio-meter of encoder
         enc_val = analogRead(PT_ENC);
         enc_val = map(enc_val, 0, 1023, -500, 500);
+        Serial.print("enc potentio-meter : ");
+        Serial.println(enc_val);
         err_k = ref_val - enc_val;
         //err_k = 0 - enc_val;
         derr_k = err_k - err_k_1;
