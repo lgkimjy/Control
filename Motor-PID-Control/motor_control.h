@@ -14,7 +14,6 @@
 #include <ros.h>
 #include <std_msgs/Float64.h>
 
-
 /* Pin information */
 #define E1_CHA 9
 #define E1_CHB 10

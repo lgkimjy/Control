@@ -3,7 +3,6 @@
  *
  *      Author: junyoung / lgkimjy
  */
-// custom header
 #include "motor_control.h"
 #include <TimerThree.h>    // Teensy 4.0
 
